@@ -1,0 +1,75 @@
+body {
+  background: cyan;
+}
+
+.sub-box {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: black;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 6px 10px 15px rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  cursor: pointer;
+}
+.fa {
+  color: yellow;
+}
+.sub-box h3 {
+  color: white;
+}
+
+.sub-box p {
+  color: #f9f9ff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  background-color: black;
+  color: yellow;
+  font-family: cursive;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: yellow;
+}
+.navbar a:hover {
+  color: white;
+}
+.data-title {
+  padding-top: 50px;
+}
+
+.tablerow {
+  padding: 50px;
+}
+
+tr {
+  border: 1px solid;
+}
+td {
+  border: 1px solid;
+  padding: 10px;
+}
+
+#titlerow {
+  font-weight: 600;
+  text-align: center;
+  color: brown;
+  font-size: 20px;
+}
+
+#desc {
+  font-family: cursive;
+}
+
+.tablerow {
+  display: flex;
+  justify-content: center;
+}

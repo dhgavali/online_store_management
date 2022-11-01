@@ -1,0 +1,36 @@
+.navbar {
+  padding: 10px 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: flex;
+  background-color: black;
+  /* color: white; */
+}
+.navbar .navbar-brand {
+  color: yellow;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar ul li a:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+.fa-shopping-bag {
+  font-size: 35px;
+}
+
+.nav-link a {
+  color: yellow;
+  text-decoration: yellow;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link .active {
+  color: yellow;
+}

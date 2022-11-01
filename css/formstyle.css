@@ -1,0 +1,67 @@
+.main {
+  background-color: cyan;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  font-family: cursive;
+}
+.form-blc {
+  display: flex;
+  justify-content: center;
+}
+
+.form-box {
+  margin: 50px 00px;
+  width: fit-content;
+  background-color: white;
+  padding: 10px 25px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.42);
+}
+
+.form-line {
+  padding: 2.5px 0px;
+}
+/* butotn styles */
+input[type="submit"],
+input[type="button"] {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 20px 10px;
+}
+input[type="submit"] {
+  background-color: yellow;
+  color: black;
+}
+input[type="button"] {
+  background-color: black;
+  color: white;
+}
+.upload-btn {
+  padding: 10px;
+}
+
+/* title row for inventory */
+#titlerow {
+  font-weight: 600;
+  text-align: center;
+  color: brown;
+  font-size: 20px;
+}
+#desc {
+  font-family: cursive;
+}
+table td {
+  padding: 10px;
+}
+.tablerow {
+  display: flex;
+  justify-content: center;
+}
+select {
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 1px solid black;
+}

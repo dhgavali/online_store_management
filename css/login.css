@@ -1,0 +1,41 @@
+body {
+  background-color: cyan;
+  font-family: cursive;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  margin-top: 50px;
+  width: 300px;
+  background: white;
+  box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.23),
+    6px 10px 10px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+  padding: 50px 75px;
+}
+.form-group {
+  margin-top: 20px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+.login-btn {
+  margin-top: 20px;
+  width: 108%;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  background: yellow;
+  color: black;
+}
+small,
+#sm {
+  color: red;
+}
